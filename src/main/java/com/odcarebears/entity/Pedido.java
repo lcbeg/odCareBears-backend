@@ -29,7 +29,7 @@ public class Pedido {
 	
 	@ManyToOne
 	@JoinColumn(name="user_id")
-	private User userId;
+	private Usuario userId;
 
 	public Long getIdPedido() {
 		return idPedido;
@@ -55,11 +55,11 @@ public class Pedido {
 		this.fechaRealizado = fechaRealizado;
 	}
 
-	public User getUserId() {
+	public Usuario getUserId() {
 		return userId;
 	}
 
-	public void setUserId(User userId) {
+	public void setUserId(Usuario userId) {
 		this.userId = userId;
 	}
 	
