@@ -18,4 +18,12 @@ public class UsuarioService {
                 ("The user with id " + email + " does not exist, menso"));
     }
 	
+	
+	public Usuario saveUsuario(Usuario usuario) throws Exception {	
+		if (!(usuario.getFullName().length() < 150))			
+			throw new IllegalStateException("Name length is greater than "+ 150);
+		
+		
+		return usuarioRepository.save(usuario);
+	}
 }

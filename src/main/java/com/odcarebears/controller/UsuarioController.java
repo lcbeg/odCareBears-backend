@@ -30,4 +30,21 @@ public class UsuarioController {
             return new ResponseEntity<String>(e.getMessage(), HttpStatus.BAD_REQUEST);
         }
 }
+	
+	
+	@PostMapping //localhost:8080/api/usuario
+	@ResponseBody
+	public ResponseEntity<?> addNewUsuario(@RequestBody Usuario usuario) {
+		try {
+			//Se guarda el cliente y lo retorna con el id asignado.
+			return new ResponseEntity<Usuario>(usuarioService.saveUsuario(usuario), HttpStatus.CREATED);
+		}
+		catch (IllegalStateException e){
+			return new ResponseEntity<String>(e.getMessage(), HttpStatus.BAD_REQUEST);
+		}
+		catch (Exception e) {
+			return new ResponseEntity<String>(e.getMessage(), HttpStatus.BAD_REQUEST);
+		}
+					
+	}
 }
