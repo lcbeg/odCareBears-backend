@@ -7,6 +7,6 @@ import org.springframework.data.repository.CrudRepository;
 import com.odcarebears.entity.*;
 
 public interface UsuarioRepository extends CrudRepository<Usuario, Long>{
-	
-	Optional<Usuario> findByEmail(String email);
+
+    Optional<Usuario> findByEmail(String email);
 }
