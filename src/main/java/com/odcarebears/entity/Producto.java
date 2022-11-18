@@ -32,13 +32,13 @@ public class Producto {
 	private Long estado;
 	
 	@Column(name="foto1")
-	private Long foto;
+	private String foto;
 	
 	@Column(name="foto2")
-	private Long foto2;
+	private String foto2;
 	
 	@Column(name="foto3")
-	private Long foto3;
+	private String foto3;
 
 	@ManyToOne
 	@JoinColumn(name="id_categoria",nullable=false, updatable=false)
@@ -101,27 +101,27 @@ public void setIdCategoria(Categoria idCategoria) {
 		this.estado = estado;
 	}
 
-	public Long getFoto() {
+	public String getFoto() {
 		return foto;
 	}
 
-	public void setFoto(Long foto) {
+	public void setFoto(String foto) {
 		this.foto = foto;
 	}
 
-	public Long getFoto2() {
+	public String getFoto2() {
 		return foto2;
 	}
 
-	public void setFoto2(Long foto2) {
+	public void setFoto2(String foto2) {
 		this.foto2 = foto2;
 	}
 
-	public Long getFoto3() {
+	public String getFoto3() {
 		return foto3;
 	}
 
-	public void setFoto3(Long foto3) {
+	public void setFoto3(String foto3) {
 		this.foto3 = foto3;
 	}
 	
