@@ -1,4 +1,4 @@
-
+USE railway;
 INSERT INTO `categoria`(nombre_categoria, imagen_categoria) VALUE ('Ositos', 'https://i.ibb.co/BjB10BQ/Osos.jpg');
 INSERT INTO `categoria`(nombre_categoria, imagen_categoria) VALUE ('Accesorios', 'https://i.ibb.co/6vLTc5F/accesoriofil.jpg');
 INSERT INTO `categoria`(nombre_categoria, imagen_categoria) VALUE ('Cerámica','https://i.ibb.co/FXS5QH3/tazafil.jpg');
