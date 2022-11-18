@@ -1,0 +1,1 @@
+web: java -jar -Dserver.port=$PORT build/libs/Ob_bears-0.0.1-SNAPSHOT.jar
