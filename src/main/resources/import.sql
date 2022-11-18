@@ -30,7 +30,7 @@ INSERT INTO `productos`(`nombre_prod`, `precio`, `descripcion`, `id_categoria`, 
             
 INSERT INTO `productos`(`nombre_prod`, `precio`, `descripcion`, `id_categoria`,  `existencias`,`foto1`,`foto2`,`foto3`) VALUES ('Plato largo', '50', 'Platón de ceramica, con la imagen de Cinnamoroll pintado a mano, con técnica de hoja de oro','3', '4');  
 INSERT INTO `productos`(`nombre_prod`, `precio`, `descripcion`, `id_categoria`, `existencias`,`foto1`,`foto2`,`foto3`) VALUES ('Alajero My Melody', '50', 'Pequeño alajero de My Melody, se asoma su figura','3', '10');  
-INSERT INTO `productos`( `nombre_prod`, `precio`, `descripcion`, `id_categoria`,  `existencias``foto1`,`foto2`,`foto3`) VALUES ('Pintura De Oso', '50', 'Pintura con técnica sobre oleo','4', '1');  
+INSERT INTO `productos`( `nombre_prod`, `precio`, `descripcion`, `id_categoria`,  `existencias`, `foto1`,`foto2`,`foto3`) VALUES ('Pintura De Oso', '50', 'Pintura con técnica sobre oleo','4', '1');  
 INSERT INTO `productos`(`nombre_prod`, `precio`, `descripcion`, `id_categoria`, `existencias`,`foto1`,`foto2`,`foto3`) VALUES ('Pintura De Oso', '50', 'Pintura con técnica sobre oleo', '4', '1');
 
 
