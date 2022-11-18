@@ -45,8 +45,8 @@ public class Producto {
 	private Categoria idCategoria;
 	
 	
-	public Long getIdCategoria() {
-	return this.idCategoria.getIdCategoria();
+	public Categoria getIdCategoria() {
+	return this.idCategoria;
 }
 
 public void setIdCategoria(Categoria idCategoria) {
